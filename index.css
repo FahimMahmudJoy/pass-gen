@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.main {
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 115px 52px;
+}
+
+h1 {
+    font-family: 'Karla';
+}
+
+p {
+    color: #D5D4D8;
+}
+
+.btn {
+    width: 211px;
+    height: 39px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-gen {
+    background: #10B981;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.password-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-field {
+    background: #273549;
+    color: #4ADF86;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.random {
+    color: #4ADF86;
+}
+
+.pass-length {
+    width: 211px;
+    height: 30px;
+}
+
+button:hover {
+    background: #157f5c;
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    .main {
+        width: 300px;
+        height: 600px;
+    }
+
+    .password-field,
+    .pass-info {
+        flex-direction: column;
+    }
+}
